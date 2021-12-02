@@ -1,6 +1,6 @@
 {
   "name": "@chen86860/rollup-esm-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "git@github.com:chen86860/rollup-esm-template.git",
   "author": "Jack <chen86860@users.noreply.github.com>",
   "license": "MIT",
@@ -26,6 +26,6 @@
     "dayjs": "^1.10.7"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   }
 }
