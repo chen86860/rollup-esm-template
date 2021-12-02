@@ -1,0 +1,28 @@
+{
+  "name": "@chen86860/rollup-esm-template",
+  "version": "1.0.1",
+  "repository": "git@github.com:chen86860/rollup-esm-template.git",
+  "author": "Jack <chen86860@users.noreply.github.com>",
+  "license": "MIT",
+  "module": "./dist/esm/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.60.2",
+    "rollup-plugin-multi-input": "^1.3.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
